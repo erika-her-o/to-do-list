@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+.box{
+    background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+    padding: 35px;
+    border-radius: 20px;
+    height: 450px;
+    width: 500px;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    resize: none;
+    font-size:1em;
+    height: 100px;
+    padding: 5px;
+}
+
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.btn-success{
+    background: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px;
+}
+
+.btn-success:hover {
+    cursor: pointer;
+}
+
+.btn-danger{
+    background:red;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 10px;
+}
+
+ #divTasks > div{
+    border: 2px solid #aaa;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    min-height: 30px;
+ }
+ .divButton{
+     text-align: right;
+ }
